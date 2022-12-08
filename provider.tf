@@ -1,6 +1,7 @@
 # Configure the AWS Provider - eu-west-2
 provider "aws" {
   region  = "eu-west-2"
+  profile = "Nedze"
 }
 
 # Create a VPC
